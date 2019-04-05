@@ -1,0 +1,32 @@
+version: '3'
+services:
+  nginx:
+    build: ./nginx
+    links:
+     - web1:web1
+     - web2:web2
+     - web3:web3
+    ports:
+     - 8080:80
+  web1:
+    build: ./flask
+    ports:
+     - "5000:5000"
+    volumes:
+     - code_volume:/code
+  web2: 
+    build: ./flask
+    ports:
+     - "5001:5000"
+    volumes:
+     - code_volume:/code
+  web3: 
+    build: ./flask
+    ports:
+     - "5002:5000"
+    volumes:
+     - code_volume:/code
+  redis:
+    image: "redis:alpine"
+volumes:
+  code_volume:
