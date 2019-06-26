@@ -1,4 +1,4 @@
-![https://icon2.kisspng.com/20180926/foz/kisspng-nutanix-logo-brand-bild-font-datakraf-home-5babe69761eb83.8187816315379923434011.jpg](https://icon2.kisspng.com/20180926/foz/kisspng-nutanix-logo-brand-bild-font-datakraf-home-5babe69761eb83.8187816315379923434011.jpg)![docker-logo-150x150.png](https://www.zencode.nl/wp-content/uploads/2015/05/docker-logo-150x150.png) 
+![logo.png](logo.png) 
 
 # Docker Training - EMEA/2019
 
