@@ -34,7 +34,7 @@ $ docker run --name my-mariadb -p 3306 -v mariadb-vol:/var/lib/mysql \
 
 3. **Check database** connectivity:
 
-```bash
+```console
 $ nc -v localhost 3306
 ```
 
