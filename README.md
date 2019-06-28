@@ -8,7 +8,7 @@
 
 [**DAY 1**](https://github.com/hutger/docker-training/tree/master/Day-1)
 
-- **Technology Eco-System**
+- **Technological Landscape**
   - Microservices
   - Agile and DevOps
   - IaC (Infrastructure as Code)
