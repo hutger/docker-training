@@ -19,7 +19,7 @@ ___
 
 1. **Create a volume** called 'mariadb-vol':
 
- ```bash
+ ```console
 $ docker volume create mariadb-vol
 
  ```
