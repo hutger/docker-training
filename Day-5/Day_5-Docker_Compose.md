@@ -160,7 +160,7 @@ $ docker-compose ls
 
 8. **Test the connectivity** from a browser and refresh the page in order to check the container ID and number of requests:
 
-> http://<DOCKER_IP_ADDRESS>:8080/
+> http://<DOCKER_HOST_IP_ADDRESS>:8080/
 
 
 
