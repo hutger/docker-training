@@ -19,14 +19,14 @@ ___
 
 1. **Create a volume** called 'mariadb-vol':
 
- ```console
+ ```bash
 $ docker volume create mariadb-vol
 
  ```
 
 2. **Start an new container** with volume *mariadb-vol* attached
 
- ```console
+ ```bash
 $ docker run --name my-mariadb -p 3306 -v mariadb-vol:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=nutanix -d mariadb:10
 
@@ -34,7 +34,7 @@ $ docker run --name my-mariadb -p 3306 -v mariadb-vol:/var/lib/mysql \
 
 3. **Check database** connectivity:
 
-```console
+```bash
 $ nc -v localhost 3306
 ```
 
