@@ -45,6 +45,7 @@
 [**DAY 5**](https://github.com/hutger/docker-training/tree/master/Day-5)
 
 * **Docker Compose**
+* **Docker on Nutanix**
 * **Final Project - Flask App in LB mode**
 
 ___
