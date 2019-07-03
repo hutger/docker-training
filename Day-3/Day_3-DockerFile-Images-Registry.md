@@ -86,7 +86,7 @@ $ docker push  USERNAME/python-app:0.1
 8. Ask one of your colleagues for his/her repository name and **deploy** a new container on your host:
 
  ```bash
-$ docker run -d -p 5000 --name nginx-app COLLEAGUE/nginx-app:0.1
+$ docker run -d -p 5000:5000 --name python-app COLLEAGUE/nginx-app:0.1
 
 
  ```
