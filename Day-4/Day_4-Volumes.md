@@ -27,7 +27,7 @@ $ docker volume create mariadb-vol
 2. **Start an new container** with volume *mariadb-vol* attached
 
  ```bash
-$ docker run --name my-mariadb -p 3306 -v mariadb-vol:/var/lib/mysql \
+$ docker run --name my-mariadb -p 3306:3306 -v mariadb-vol:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=nutanix -d mariadb:10
 
  ```
